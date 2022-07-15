@@ -170,3 +170,55 @@ footer p{
     padding-top: 10px;
 }
 /* footer end */
+/* donation start */
+#donation {
+    margin-top: 100px;
+
+
+}
+#donation h2{
+text-align: center;
+padding-bottom: 25px;
+
+
+}
+#donation .top-head-donation{
+
+padding-bottom: 20px;
+color: #8e918a;
+text-align: center;
+}
+.donation_type{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fund{
+    display: flex;
+    margin-right: 30px;
+    background: rgba(247, 18, 18, 0.11);
+    width: 450px;
+    border-radius: 5px;
+}
+.fund_left{
+    width: 20%;
+    padding: 33px 25px ;
+}
+.fund_text{
+    width: 75%;
+    padding: 15px 0px ;
+    
+    
+}
+.fund_text h4{
+    font-size: 20px;
+    padding: 10px 7px;
+    text-align: left;
+}
+.fund_text p{
+    font-size: 17px;
+    padding: 10px 10px ;
+    color: #9ca094;
+    text-align:justify;
+}
+/* donation end */
