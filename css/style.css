@@ -1,0 +1,172 @@
+/* Common css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    font-size: 40px;
+}
+.link_button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    background: rgb(230, 46, 46);
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    /* margin-top: 50px; */
+}
+.link_button:hover{
+    
+    background-image: linear-gradient(#0df30d ,#18880e);
+    /* background-image: linear-gradient(#f3430d ,#23e711); */
+    color: #fff;
+}
+.half_width{
+    width: 50%;
+}
+/* common css end */
+
+
+.banner_items{
+    
+    background-image: url(../img/cows.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+
+}
+.banner_items::before{
+ position: absolute;
+ content: ' ';
+ width: 100%;
+ height: 100vh;
+ background: #0000008f;
+ z-index: -1;
+}
+    
+    
+
+.banner_content{
+    align-items: center;
+    padding-left: 8%;
+    padding-top: 10%;
+    
+    color: #eef7f4;
+}
+.banner_content>p{
+    padding-top: 25px ;
+    padding-bottom: 60px;
+}
+/* cow-bazer-half-width */
+#cow_bazer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bazer_items{
+    display: flex;
+    /* height: 450px; */
+
+}
+.bazer_items .bazer_left{
+    padding-left: 8%;
+    padding-top: 5%;
+    
+    
+}
+.bazer_items .bazer_left p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    
+}
+.bazer_items .bazer_left .bottom_p{
+    padding-bottom: 40px;
+    
+}
+.bazer_items .bazer_right{
+    padding-top: 3%;
+}
+.bazer_items .bazer_right img{
+    width: 80%;
+    /* width: 350px; */
+    height: 300px;
+    padding: 20px 25px;
+    margin-left: 60px;
+    
+    /* border: 1px solid #457 ; */
+    
+}
+/* cow-bazer-half-width */
+/* prayer start */
+#prayer{
+    /* padding-top: 60px; */
+    margin-top: 70px;
+    margin-bottom: 45px;
+    
+}
+.prayer_content{
+    display: flex;
+}
+.prayer_content .prayer_left img{
+   height: 300px;
+   width: 50pxs;
+   padding-left: 15%;
+}
+.prayer_content .prayer_right{
+   height: 300px;
+   width: 50pxs;
+   padding-left: 6%;
+   padding-right: 8%;
+}
+.prayer_content .prayer_right h2{
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+.prayer_content .prayer_right p{
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+/* .prayer_content .prayer_right .pray_btn{
+   margin-top: 80px;
+   
+} */
+.prayer_content .prayer_right .bottom_p2{
+   padding-bottom: 50px;
+   
+}
+/* prayer end */
+/* footer start */
+footer{
+    background: rgb(12, 12, 12);
+    color: #f8f5f4;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+footer h3{
+   font-style: italic; 
+    font-family:   sans-serif;
+    
+}
+footer p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+/* footer end */
