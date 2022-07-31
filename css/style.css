@@ -237,3 +237,46 @@ text-align: center;
     padding: 0 8px;
 }
 /* prayer image end*/
+/* zakat start */
+.zakat{
+   display: flex;
+   justify-content: center;
+}
+.zakat_hading{
+    text-align: center;
+}
+.zakat_hading>p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.zakat_info{
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px #646662;
+    margin-right: 15px;
+    border-radius: 7px;
+    
+}
+.card_info{
+    width: 290px;
+    padding-left: 5%;
+}
+.card_info>h3{
+    padding-top: 10px;
+    
+}
+.card_info .zakat_link{
+    padding-bottom: 30px;
+    
+}
+.card_info>p{
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-size: 15px;
+}
+.zakat_info .zakat_img img{
+    width: 300px;
+    height: 180px;
+    border-radius: 6px;
+}
+/* zakat end */
